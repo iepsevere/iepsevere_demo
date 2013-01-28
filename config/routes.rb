@@ -1,7 +1,7 @@
 IepsevereDemo::Application.routes.draw do
   resources :people
 
-
+  root :to => "people#index"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
